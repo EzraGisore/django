@@ -1,246 +1,393 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1320px) {
-    .about_box_img {
-        margin-right: -20px;
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    #myCarousel .carousel-control-prev {
+        right: 15.5%;
+    }
+    #proj .carousel-control-prev {
+        left: 45.6%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    ul.email li {
-        padding: 0 9px;
+    .build_box h1 {
+        font-size: 87px;
     }
-    .banner_main .bg_white h1 {
-        font-size: 60px;
+    #myCarousel .carousel-control-prev {
+        right: 16.5%;
     }
-    .carousel-indicators {
-        margin-left: 12%;
+    #proj .carousel-control-prev {
+        left: 43.6%;
     }
-    .about_box_img {
-        margin-right: 35px;
+    .award_icon strong {
+        font-size: 14px;
     }
-    .about_box_text p {
-        font-size: 17px;
-        line-height: 26px;
+    ul.social_icon_staff li a {
+        width: 36px;
+        height: 36px;
     }
-    .margin_left60 {
-        margin-left: -80px;
-        margin-right: 80px;
-    }
-    .instant .titlepage h2 {
-        font-size: 69px;
-        line-height: 83px;
-    }
-    .reader h3 {
-        font-size: 26px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .d_none {
-        display: none !important;
-    }
-    .banner_main .bg_white h1 {
-        font-size: 39px;
-        line-height: 40px;
-    }
-    .carousel-indicators {
-        margin-left: 13%;
-    }
-    .about_box_img {
-        margin-right: 35px;
-    }
-    .about_box_text h3 {
-        padding-bottom: 2px;
-        font-size: 20px;
-    }
-    .about_box_text p {
-        font-size: 17px;
-        line-height: 26px;
-    }
-    .ho_dist span {
-        font-size: 18px;
-    }
-    .margin_left60 {
-        margin-left: -32px;
-        margin-right: 32px;
-    }
-    .instant .titlepage h2 {
-        font-size: 41px;
-        line-height: 50px;
-    }
-    ul.social_icon li {
-        padding-right: 117px;
-    }
-    .reader h3 {
-        font-size: 20px;
-    }
-    ul.xple_menu li a {
+    .footer h3 {
         font-size: 14px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .d_none {
-        display: none !important;
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        height: 154px;
+    }
+    ul.contat_infoma li {
+        font-size: 12px;
     }
     .logo {
-        text-align: center;
-        display: block;
+        padding-top: 4px;
     }
-    .banner_main .bg_white h1 {
-        font-size: 30px;
-        line-height: 40px;
+    .build_box h1 {
+        font-size: 67px;
     }
-    .carousel-indicators {
-        margin-left: 14%;
+    #proj .carousel-control-next {
+        right: 41%;
     }
-    .about_box_img {
-        padding: 35px;
-        margin-right: 0px;
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 9px 11px;
+    }
+    #myCarousel .carousel-control-next {
+        right: 8%;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+    }
+    .const span {
+        font-size: 11px;
     }
     .titlepage h2 {
-        font-size: 23px;
-        line-height: 29px;
+        font-size: 40px;
+        line-height: 30px;
     }
-    .lisertab .servi_tab {
-        padding: 12px 22px;
+    .projects_ban {
+        padding: 0 0px;
     }
-    .ho_dist span {
+    .project_text h3 {
+        font-size: 22px;
+    }
+    .award_icon i {
+        width: 124px;
+        height: 124px;
+    }
+    .award_icon strong {
+        font-size: 12px;
+    }
+    ul.social_icon_staff li a {
         font-size: 18px;
+        width: 31px;
+        height: 31px;
     }
-    .padding_0 {
-        padding: 15px
+    .social_icon_main {
+        padding: 20px 9px;
     }
-    .margin_top70p {
-        margin-top: 0px;
-    }
-    .margin_left20 {
-        margin-left: 0px;
-    }
-    .margin_right20 {
-        margin-right: 0px;
-    }
-    .margin_top170 {
-        margin-top: 0px;
-    }
-    .margin_left60 {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .margin_top40 {
-        margin-top: 0px;
-    }
-    .instant .titlepage h2 {
-        font-size: 54px;
-        line-height: 68px;
-    }
-    .instant_img {
-        margin-top: 30px;
-    }
-    ul.social_icon li {
-        padding-right: 90px;
-    }
-    .reader p {
-        padding-bottom: 20px;
+    #testimo .carousel-control-next {
+        left: 11%;
     }
     .main_form {
-        padding-bottom: 30px;
+        padding: 40px 30px;
     }
-    .padddd {
+    .sub_btn {
+        max-width: 203px;
+    }
+    .link_menu {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        height: 155px;
+    }
+    ul.search {
+        display: none;
+    }
+    .build_box h1 {
+        font-size: 67px;
+    }
+    ul.contat_infoma {
+        display: none;
+    }
+    .award_icon strong {
+        font-size: 16px;
+    }
+    .logo a img {
+        position: relative;
+        z-index: 9999;
+    }
+    .about_img {
+        margin-top: 30px;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+        top: 100%;
+    }
+    #myCarousel .carousel-control-prev {
+        right: 19%;
+    }
+    .jkhgkj {
+        display: none;
+    }
+    .staff {
+        margin-bottom: 20px;
+    }
+    #proj .carousel-control-prev,
+    #proj .carousel-control-next {
+        top: 96%;
+    }
+    #proj .carousel-control-next {
+        right: 54%;
+    }
+    .margin_top {
+        margin-top: 0px;
+    }
+    .margin_bott {
+        margin-bottom: 0px;
+    }
+    .middle {
+        margin: 0;
+        padding-top: 37px;
+    }
+    .padd_top30 {
+        padding-top: 30px !important;
+    }
+    .balance {
+        margin: 0;
+    }
+    .padding_right0 {
         padding-right: 15px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 9%;
+    }
+    .project_img {
+        margin-top: 30px
+    }
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+    }
+    .many {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 8px !important;
+    }
+    .navigation .navbar-collapse {
+        background: #161825;
+        padding: 20px;
+        margin-top: 68px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 9px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
     }
 }
 
 @media (max-width: 575px) {
-    header {
-        padding: 33px 10px;
+    .back_re .title h2 {
+        font-size: 31px;
     }
-    .d_none {
-        display: none !important;
+    .logo a img {
+        position: relative;
+        z-index: 9999;
+    }
+    .project_img {
+        margin-top: 30px
+    }
+    .build_box h1 {
+        font-size: 35px;
+        line-height: 41px;
     }
     .logo {
-        display: block;
-        width: 120px;
+        text-align: center !important;
+        padding-bottom: 6px;
         float: left;
+        position: relative;
     }
-    .email {
-        margin-top: -32px;
+    .header {
+        height: 176px;
     }
-    .banner_main {
-        padding-top: 120px;
-        display: inherit;
+    ul.contat_infoma {
+        display: none;
     }
-    .banner_main .bg_white h1 {
-        font-size: 28px;
-        line-height: 44px;
-        padding-bottom: 20px;
+    .jkhgkj {
+        display: none;
     }
-    .carousel-indicators {
-        margin-left: 13%;
+    .staff {
+        margin-bottom: 20px;
     }
-    .about_box_text h3 {
-        font-size: 21px;
-        padding-bottom: 11px;
+    #proj .carousel-control-prev,
+    #proj .carousel-control-next {
+        top: 93%;
     }
-    .about_box_img {
-        padding: 15px;
-        margin-right: 0px;
+    #proj .carousel-control-next {
+        right: 54%;
     }
-    .about_box_text {
-        padding-left: 10px;
+    .award_icon strong {
+        font-size: 8px;
     }
-    .building {
-        background: #540705;
-        padding-top: 90px;
-        padding-bottom: 40px;
+    .award_icon i {
+        width: 86px;
+        height: 114px;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+        top: 100%;
+    }
+    #myCarousel .carousel-control-prev {
+        right: 27%;
+    }
+    ul.search {
+        display: none;
     }
     .titlepage h2 {
-        font-size: 23px;
-        line-height: 29px;
+        font-size: 30px;
+        line-height: 31px;
     }
-    .ho_dist span {
-        font-size: 18px;
-    }
-    .padding_0 {
-        padding: 15px
-    }
-    .margin_top70p {
+    .margin_top {
         margin-top: 0px;
     }
-    .margin_left20 {
-        margin-left: 0px;
+    .margin_bott {
+        margin-bottom: 0px;
     }
-    .margin_right20 {
-        margin-right: 0px;
+    .middle {
+        margin: 0;
+        padding-top: 37px;
     }
-    .margin_top170 {
-        margin-top: 0px;
+    .padd_top30 {
+        padding-top: 30px !important;
     }
-    .margin_left60 {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .margin_top40 {
-        margin-top: 0px;
-    }
-    .instant .titlepage h2 {
-        font-size: 43px;
-        line-height: 53px;
-    }
-    .instant_img {
-        margin-top: 30px;
-    }
-    ul.social_icon li {
+    .padding_right0 {
         padding-right: 15px;
     }
-    .reader h3 {
-        padding-top: 30px;
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .relative2 {
+        padding: 0px 23px 80px 23px;
+    }
+    .aliq {
+        padding: 0px;
+    }
+    .qusleft {
+        padding-left: 7px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 16%;
     }
     .main_form {
-        padding-bottom: 30px;
+        padding: 40px 20px;
     }
-    .padddd {
-        padding-right: 15px;
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .projects_ban {
+        padding: 0 0px;
+    }
+    .about_img {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .many {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        padding-top: 0px !important;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #161825;
+        padding: 20px;
+        margin-top: 26px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: -40px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
     }
 }

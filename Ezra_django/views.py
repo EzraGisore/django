@@ -8,3 +8,5 @@ def contactcopy(request):
     return render(request,'contact (copy).html')
 def about(request):
     return render(request, 'about (copy).html')
+def rhino_index(request):
+    return render(request, 'rhino_index.html')
