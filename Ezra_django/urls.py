@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index, name= 'index'),
     path('services/', views.services, name= 'services'),
-    path('contact/', views.contact, name= 'contact'),
+    path('contactcopy/', views.contactcopy, name= 'contactcopy'),
     path('about/', views.about, name= 'about')
 ]
 

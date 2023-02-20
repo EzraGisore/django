@@ -19,21 +19,21 @@
       <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
       <!-- style css -->
 
-      <link rel="stylesheet" href= {% static "css/style(copy).css" %}">
+      <link rel="stylesheet" href="{% static "css/style (copy).css" %}">
       <!-- responsive-->
 
-      <link rel="stylesheet" href={% static "css/responsive.css" %}>
+      <link rel="stylesheet" href="{% static "css/responsive.css" %}">
       <!-- awesome fontfamily -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <script src="{% static "https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"%}"></script>
+      <script src="{% static "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"%}"></script><![endif]-->
    </head>
    <!-- body -->
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="{% static "images/loading.gif" %}" alt="" /></div>
+         <div class="loader"><img src="{% static "images/loading.gif"%}" alt="" /></div>
       </div>
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
@@ -51,7 +51,7 @@
                <div class="row">
                   <div class="col-sm-3">
                      <div class="logo">
-                        <a href="index.html"><img src="{% static "images/logo_footer.png" %}" alt="" /></a>
+                        <a href="index.html"><img src="{% static "images/logo_footer.png" %}" /></a>
                      </div>
                   </div>
                   <div class="col-sm-9">
@@ -61,7 +61,7 @@
                         <li class="d_none"> <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>demo@gmail.com</a></li>
                         <li class="d_none"> <a href="#">Login <i class="fa fa-user" aria-hidden="true"></i></a> </li>
                         <li class="d_none"><i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i></li>
-                        <li> <button class="openbtn" onclick="openNav()"><img src="{% static "images/menu_btn.png"%}" alt="" /></button></li>
+                        <li> <button class="openbtn" onclick="openNav()"><img src="{% static "images/menu_btn.png" %}"></button></li>
                      </ul>
                   </div>
                </div>
@@ -139,18 +139,18 @@
                         <div class="col-md-5">
                            <div class="about_box_text">
                               <h3>Best INTERIOR Design</h3>
-                              <p>There are many variations of passages of 
-                                 Lorem Ipsum available, but the majority 
-                                 have suffered alteration in some 
-                                 form, by injected humour,There are many 
-                                 variations of passages of 
+                              <p>There are many variations of passages of
+                                 Lorem Ipsum available, but the majority
+                                 have suffered alteration in some
+                                 form, by injected humour,There are many
+                                 variations of passages of
                               </p>
                               <a class="read_more" href="Javascript:void(0)">Read More</a>
                            </div>
                         </div>
                         <div class=" col-md-7  pppp">
                            <div class="about_box_img">
-                              <figure><img src="{% static "images/about_img.png" %}" alt="" /></figure>
+                              <figure><img src="{% static "images/about_img.png" %}" alt="#" /></figure>
                            </div>
                         </div>
                      </div>
@@ -207,8 +207,8 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_right20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img1.png" %}" alt="" /></figure>
-                                    <div class="ho_dist">
+                                    <figure><img src="{% static "images/service_img1.png" alt="#" />  </figure>
+                                    <div class="ho_dist">" %}
                                        <span>Reader will be distracted</span>
                                     </div>
                                  </div>
@@ -217,7 +217,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_top70p margin_right20 margin_left20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img2.png" %}" alt="" />  </figure>
+                                    <figure><img src="images/{% static "service_img2.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -227,7 +227,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_left20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img3.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img3.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -237,7 +237,7 @@
                            <div class="col-md-4 offset-md-8 col-sm-6 padding_0 margin_top170">
                               <div class="services margin_left60">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img4.png" %}" alt="" />  </figure>
+                                    <figure><img src="{% static "images/service_img4.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -254,7 +254,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_right20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img3.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img3.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -264,7 +264,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_top70p margin_right20 margin_left20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img2.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img2.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -274,7 +274,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_left20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img4.png" %}" alt="" />  </figure>
+                                    <figure><img src="{% static "images/service_img4.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -284,7 +284,7 @@
                            <div class="col-md-4 offset-md-8 col-sm-6 padding_0 margin_top170">
                               <div class="services margin_left60">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img1.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img1.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -301,7 +301,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_right20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img4.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img4.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -311,7 +311,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_top70p margin_right20 margin_left20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img2.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img2.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -321,7 +321,7 @@
                            <div class="col-md-4 col-sm-6 padding_0 margin_left20">
                               <div class="services">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img1.png" %}" alt="" /></figure>
+                                    <figure><img src="{% static "images/service_img1.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -331,7 +331,7 @@
                            <div class="col-md-4 offset-md-8 col-sm-6 padding_0 margin_top170">
                               <div class="services margin_left60">
                                  <div class="services_img">
-                                    <figure><img src="{% static "images/service_img3.png" %}" alt="" />  </figure>
+                                    <figure><img src="{% static "images/service_img3.png" %}" alt="#" />  </figure>
                                     <div class="ho_dist">
                                        <span>Reader will be distracted</span>
                                     </div>
@@ -362,7 +362,7 @@
                </div>
                <div class="col-md-6">
                   <div class="instant_img">
-                     <figure><img src="{% static "images/pc.png" %}" alt="" /></figure>
+                     <figure><img src="{% static "images/pc.png" %}" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -384,7 +384,7 @@
                   </div>
                   <div class="col-md-4 col-sm-6">
                      <div class="reader">
-                        <a href="index.html"><img src="{% static "images/logo_footer.png" %}" alt="" /></a>
+                        <a href="index.html"><img src="{% static "images/logo_footer.png" %}" alt="#"/></a>
                         <p class="padd_flet40">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
                      </div>
                   </div>
@@ -403,10 +403,10 @@
                      <div class="reader">
                         <h3>Recent Posts</h3>
                         <ul class="re_post">
-                           <li><img src="{% static "images/re_img1.jpg" %}" alt="" /></li>
-                           <li><img src="{% static "images/re_img2.jpg" %}" alt="" /></li>
-                           <li><img src="{% static "images/re_img3.jpg" %}" alt="" /></li>
-                           <li><img src="{% static "images/re_img4.jpg" %}" alt="" /></li>
+                           <li><img src="{% static "images/re_img1.jpg"%}" alt="#"/></li>
+                           <li><img src="{% static "images/re_img2.jpg"%}" alt="#"/></li>
+                           <li><img src="{% static "images/re_img3.jpg" %}" alt="#"/></li>
+                           <li><img src="{% static "images/re_img4.jpg" %}" alt="#"/></li>
                         </ul>
                      </div>
                   </div>
@@ -431,9 +431,9 @@
       </footer>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src={% static "js/jquery.min.js"%}"></script>
-      <script src={% static "js/bootstrap.bundle.min.js"%}"></script>
-      <script src={% static "js/custom.js"%}"></script>
-      <script src={% static "js/jquery-3.0.0.min.js"%}"></script>
+      <script src="{% static "js/jquery.min.js" %}"></script>
+      <script src="{% static "js/bootstrap.bundle.min.js"%}"></script>
+      <script src="{% static "js/custom.js"%}"></script>
+      <script src="{% static "js/jquery-3.0.0.min.js" %}"></script>
    </body>
 </html>

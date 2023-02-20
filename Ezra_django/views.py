@@ -4,7 +4,7 @@ def index(request):
     return render(request,'index.html')
 def services(request):
     return render(request,'services.html')
-def contact(request):
+def contactcopy(request):
     return render(request,'contact (copy).html')
 def about(request):
     return render(request, 'about (copy).html')
