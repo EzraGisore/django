@@ -10,3 +10,7 @@ def about(request):
     return render(request, 'about (copy).html')
 def rhino_index(request):
     return render(request, 'rhino_index.html')
+def rhino_about(request):
+    return render(request,'rhino_about.html')
+def rhino_contact(request):
+    return render(request, 'rhino_contact.html')

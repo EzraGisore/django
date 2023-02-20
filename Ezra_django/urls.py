@@ -22,6 +22,8 @@ urlpatterns = [
     path('services/', views.services, name= 'services'),
     path('contactcopy/', views.contactcopy, name= 'contactcopy'),
     path('about/', views.about, name= 'about'),
-    path('rhino_index/', views.rhino_index, name='rhino_index')
+    path('rhino_index/', views.rhino_index, name='rhino_index'),
+    path('rhino_about/', views.rhino_about, name='rhino_about'),
+    path('rhino_contact/', views.rhino_contact, name= 'rhino_contact')
 ]
 #Dont forget the backslash
