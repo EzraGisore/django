@@ -14,3 +14,5 @@ def rhino_about(request):
     return render(request,'rhino_about.html')
 def rhino_contact(request):
     return render(request, 'rhino_contact.html')
+def rhino_project(request):
+    return render(request,'rhino_project.html')

@@ -24,6 +24,7 @@ urlpatterns = [
     path('about/', views.about, name= 'about'),
     path('rhino_index/', views.rhino_index, name='rhino_index'),
     path('rhino_about/', views.rhino_about, name='rhino_about'),
-    path('rhino_contact/', views.rhino_contact, name= 'rhino_contact')
+    path('rhino_contact/', views.rhino_contact, name= 'rhino_contact'),
+    path('rhino_project/', views.rhino_project, name= 'rhino_project')
 ]
 #Dont forget the backslash
